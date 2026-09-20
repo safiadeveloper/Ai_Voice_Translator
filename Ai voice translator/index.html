@@ -320,7 +320,7 @@
 </style>
 </head>
 <body>
-
+// Ai Voice Translator
 <div class="app">
   <div class="top-row">
     <div class="brand">
@@ -333,7 +333,7 @@
       </div>
       <div class="brand-text">
         <h1>AI Voice Translator</h1>
-        <p>Speak, translate and connect with the world 🌐</p>
+        <p>Speak and translate and connect with the world 🌐</p>
       </div>
     </div>
     <div class="dark-toggle" id="themeToggle">🌙 Dark Mode</div>
@@ -583,7 +583,7 @@
       }
     };
   }
-
+// javascript
   async function tryGoogleTranslate(text, source, target){
     const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${source}&tl=${target}&dt=t&q=${encodeURIComponent(text)}`;
     const res = await fetch(url);
